@@ -398,7 +398,7 @@ a {
   .hero-grid {
     min-height: auto;
     gap: 0;
-    padding: 30px 0 28px;
+    padding: 18px 0 12px;
   }
 
   .hero-copy {
@@ -421,7 +421,7 @@ a {
   .hero-grid .photo {
     position: relative;
     z-index: 1;
-    height: clamp(340px, 86vw, 470px);
+    height: clamp(260px, 72vw, 360px);
     min-height: 0;
     margin-top:5px;
     object-fit: contain;
