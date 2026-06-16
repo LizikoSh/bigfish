@@ -122,8 +122,11 @@ a {
 }
 
 .hero-grid .photo {
-  height: 245px;
-  min-height: 245px;
+  width: 100%;
+  height: clamp(220px, 28vw, 360px);
+  min-height: 0;
+  object-fit: contain;
+  object-position: center;
 }
 
 .hero-photo {
