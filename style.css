@@ -122,8 +122,8 @@ a {
 }
 
 .hero-grid .photo {
-  height: 200px;
-  min-height: 200px;
+  height: 245px;
+  min-height: 245px;
 }
 
 .hero-photo {
@@ -135,7 +135,7 @@ a {
 }
 
 .hero-image {
-  min-height: 275px;
+  min-height: 225px;
   border-color: rgba(255, 255, 255, 0.38);
   background:
     radial-gradient(circle at 64% 42%, rgba(255, 255, 255, 0.22), transparent 27%),
