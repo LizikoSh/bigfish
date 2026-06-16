@@ -208,7 +208,9 @@ a {
   border: 0;
   background:
     linear-gradient(rgba(6, 16, 28, 0.4), rgba(6, 16, 28, 0.4)),
-    repeating-linear-gradient(112deg, #172235 0 34px, #202b42 34px 68px);
+    url("training-4.jpg");
+  background-position: center;
+  background-size: cover;
   color: #ffffff;
 }
 
