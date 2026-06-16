@@ -218,7 +218,7 @@ a {
 }
 
 .quote-panel {
-  width: min(580px, calc(100% - 32px));
+  width: min(880px, calc(100% - 32px));
   padding: 26px 34px;
   text-align: center;
 }
@@ -254,7 +254,7 @@ a {
   place-items: center;
   border: none;
   border-radius: 50%;
-  color: #3f4d82;
+  color: #152a48;
   font-size: 12px;
   font-weight: 800;
 }
@@ -275,7 +275,7 @@ a {
 
 .site-footer {
   color: #ffffff;
-  background: #3f4d82;
+  background: #152a48;
 }
 
 .footer-grid {
