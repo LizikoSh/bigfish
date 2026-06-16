@@ -248,11 +248,11 @@ a {
 
 .feature-icon {
   display: grid;
-  width: 42px;
-  height: 42px;
+  width: 84px;
+  height: 84px;
   margin: 0 auto 14px;
   place-items: center;
-  border: 2px solid #e33d32;
+  border: none;
   border-radius: 50%;
   color: #3f4d82;
   font-size: 12px;
