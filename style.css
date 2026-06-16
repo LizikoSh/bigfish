@@ -217,7 +217,6 @@ a {
 .quote-panel {
   width: min(580px, calc(100% - 32px));
   padding: 26px 34px;
-  background: rgba(17, 24, 39, 0.72);
   text-align: center;
 }
 
