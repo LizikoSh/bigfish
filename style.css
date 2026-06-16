@@ -86,7 +86,7 @@ a {
 
 .hero-copy {
   padding: 28px 26px;
-  background: rgba(2, 10, 19, 0.68);
+  background: rgba(transparent);
 }
 
 .hero-copy h1 {
