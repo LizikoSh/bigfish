@@ -1,3 +1,6 @@
+Ось повний відредагований `style.css`:
+
+```css
 * {
   box-sizing: border-box;
 }
@@ -86,13 +89,17 @@ a {
 
 .hero-copy {
   padding: 28px 26px;
-  background: rgba(transparent);
+  background: transparent;
 }
 
 .hero-copy h1 {
   margin: 0;
   font-size: 34px;
   line-height: 1.16;
+}
+
+.hero-copy h1 span {
+  display: block;
 }
 
 .image-slot {
@@ -390,15 +397,35 @@ a {
 
   .hero-grid {
     min-height: auto;
-    padding: 30px 0 34px;
+    gap: 0;
+    padding: 30px 0 28px;
   }
 
   .hero-copy {
+    position: relative;
+    z-index: 2;
+    margin-bottom: -64px;
     padding: 22px 20px;
   }
 
   .hero-copy h1 {
-    font-size: 27px;
+    max-width: 100%;
+    font-size: clamp(24px, 6.9vw, 44px);
+    line-height: 1.12;
+  }
+
+  .hero-copy h1 span {
+    white-space: nowrap;
+  }
+
+  .hero-grid .photo {
+    position: relative;
+    z-index: 1;
+    height: clamp(340px, 86vw, 470px);
+    min-height: 0;
+    margin-top: -22px;
+    object-fit: contain;
+    object-position: center top;
   }
 
   .hero-image {
@@ -439,3 +466,4 @@ a {
     gap: 10px;
   }
 }
+```
