@@ -122,12 +122,12 @@ a {
 }
 
 .hero-grid .photo {
-  height: 275px;
-  min-height: 275px;
+  height: 225px;
+  min-height: 225px;
 }
 
 .hero-photo {
-  background: #101b2c;
+  background: #081d34;
 }
 
 .map-area .photo {
