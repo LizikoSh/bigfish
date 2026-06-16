@@ -408,11 +408,11 @@ a {
     padding: 22px 20px;
   }
 
-  .hero-copy h1 {
-    max-width: 100%;
-    font-size: clamp(24px, 6.9vw, 44px);
-    line-height: 1.12;
-  }
+.hero-copy h1 {
+  max-width: 100%;
+  font-size: clamp(20px, 6vw, 34px);
+  line-height: 1.12;
+}
 
   .hero-copy h1 span {
     white-space: nowrap;
@@ -423,7 +423,7 @@ a {
     z-index: 1;
     height: clamp(340px, 86vw, 470px);
     min-height: 0;
-    margin-top: -22px;
+    margin-top: 10px;
     object-fit: contain;
     object-position: center top;
   }
