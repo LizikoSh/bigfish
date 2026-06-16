@@ -423,7 +423,7 @@ a {
     z-index: 1;
     height: clamp(340px, 86vw, 470px);
     min-height: 0;
-    margin-top: 10px;
+    margin-top: -5px;
     object-fit: contain;
     object-position: center top;
   }
