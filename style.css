@@ -423,7 +423,7 @@ a {
     z-index: 1;
     height: clamp(340px, 86vw, 470px);
     min-height: 0;
-    margin-top: -5px;
+    margin-top:5px;
     object-fit: contain;
     object-position: center top;
   }
@@ -465,5 +465,20 @@ a {
     flex-direction: column;
     gap: 10px;
   }
+  
+  .section-intro .content-block {
+    order: 1;
+  }
+
+  .section-intro .image-frame {
+    order: 2;
+  }
+
+  .split-layout-reverse .content-block {
+    order: 1;
+  }
+
+  .split-layout-reverse .image-frame {
+    order: 2;
+  }
 }
-```
